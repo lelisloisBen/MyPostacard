@@ -1,0 +1,69 @@
+body {
+  background: #171717;
+  font-size: 18px;
+  font-family: 'Handlee', cursive;
+}
+.myPostcard {
+  background: white;
+  width: 500px;
+  height: 350px;
+  margin: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+}
+.p_header {
+  overflow: hidden;
+}
+.p_body {
+  overflow: hidden;
+}
+.postcard h1 {
+
+  font-size: 36px;
+}
+.p_header img {
+  max-width: 60px;
+  float: right;
+}
+.left_side {
+  float: left;
+  width: 50%;
+  font-weight: bold;
+}
+
+.right_side {
+  float: right;
+  width: 50%;
+}
+
+.right_side input {
+  font-family: 'Handlee', cursive;
+  display: block;
+  font-size: 18px;
+  border: none;
+  border-bottom: 1px solid gray;
+  padding-top: 10px;
+  margin-left: 10px;
+  width: 100%;
+  outline: none;
+}
+.p_footer {
+  text-align: center;
+  padding: 10px;
+}
+.p_footer input[type=submit] {
+  background-color: #eee;
+  border: none;
+  border-bottom: 1px solid grey;
+  padding: 5px;
+  font-size: 20px;
+  font-family: 'Handlee', cursive;
+  outline: none;
+  cursor:pointer;
+}
+.p_footer input[type=submit]:hover {
+  background-color: #ccc;
+}
